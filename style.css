@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+    width: 100vw;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rebeccapurple ;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.logo{
+    font-size: 40px;
+    margin: 30px;
+    margin-top: 20px;
+    color:white;
+    margin-left: 60px;
+}
+.menu{
+    display: flex;
+    margin: 40px;
+    margin-top:30px ;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+li>a{
+    color: pink;
+}
+#banner{
+    display: flex;
+    color: white;
+}
+.left img{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 50%;
+    margin-top:100px ;
+}
+.right{
+    margin: 150px;
+ 
+}
+.name{
+    font-size: 50px;
+}
+.course{
+    margin-top: 20px;
+    font-size:20px ;
+    height: 25px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 30px;
+    width: fit-content;
+}
+.description{
+    font-size: 20px;
+    margin-top: 35px;
+    
+}
+.click{
+    margin: 50px 0px 0px 0px ;
+
+}
+.click button{
+    background-color: blue;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-right: 100px;
+    box-shadow: 2px 2px 3px white;
+}
+.about{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.sai img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.aboutme{
+    color: white;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.aboutme span{
+    text-align: center;
+}
+.details{
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.skills{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
